@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Miaoumiaou074238!
+      MYSQL_DATABASE: chatop
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Miaoumiaou074238!
+    ports:
+      - "3306:3306"
